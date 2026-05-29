@@ -36,30 +36,9 @@ The trained model weights file (`finetuned_efficientnet_b0.pth`) is not included
 ## Project Workflow
 
 1. Exploratory Data Analysis
-
-   * Checked class balance
-   * Displayed sample images
-   * Inspected image dimensions
-   * Identified image orientation issues
-
 2. Image Preprocessing
-
-   * Corrected EXIF orientation metadata
-   * Converted images to RGB format
-   * Resized images to 224 x 224 pixels
-   * Applied random horizontal flipping for training data augmentation
-   * Converted images into PyTorch tensors
-   * Normalised images using ImageNet mean and standard deviation values
-
 3. Model Training
-
-   * Trained a baseline CNN from scratch
-   * Trained EfficientNet-B0 with a frozen pretrained feature extractor
-   * Fine-tuned EfficientNet-B0 by unfreezing selected final layers
-
 4. Model Evaluation
-
-   * Compared models using accuracy, precision, recall, F1-score, and confusion matrices
 
 ## Models and Results
 
