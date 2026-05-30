@@ -106,25 +106,11 @@ Gender_Classification_Project/
 ## How to Run This Project
 
 1. Clone this repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Gender_Classification_Project.git
-cd Gender_Classification_Project
-```
-
 2. Create and activate a virtual environment:
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-```
-
 3. Install the required packages:
-
-```bash
+```
 pip install -r requirements.txt
 ```
-
 4. Add the dataset into the `Data/` folder using the expected folder structure:
 
 ```text
@@ -138,7 +124,6 @@ Data/
 ```
 
 5. Open and run the notebook:
-
 ```text
 notebooks/01_gender_classification.ipynb
 ```
